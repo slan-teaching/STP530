@@ -14,7 +14,7 @@ This course focuses on simple and multiple linear regression, regression with ca
 
 [syllabus](https://github.com/slan-teaching/STP530/blob/master/syllabus_STP530.pdf)
 
-### Lecture Notes
+### Lecture Notes [Credit to: Yi Zheng @ ASU]
 
 **How to download** Open terminal, go to any folder you want to store on your computer, type: `git clone https://github.com/slan-teaching/STP598sta.git` (only once); you can download more lectures in future by `git pull` in the terminal under the folder `STP598sta` (use `cd` to go to this folder). If you are not familiar with GitHub, google 'github clone'.
 
