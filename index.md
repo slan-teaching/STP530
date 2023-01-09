@@ -6,7 +6,7 @@ This course focuses on simple and multiple linear regression, regression with ca
 
 * Welcome! Masks are recommended in classroom. Course assignments are administered on [Canvas](https://canvas.asu.edu/courses/146174) (ASU ID required).
 
-* This course will use **R** [at](https://www.r-project.org) and **RStudio** (renamed to **Posit**) [at](https://posit.co).
+* This course will use **R** at [https://www.r-project.org](https://www.r-project.org) and **RStudio** (renamed to **Posit**) at [https://posit.co](https://posit.co).
 
 <!-- * Homework 3 is available on canvas due **11:59pm Friday 10/28, 2022**. -->
 
