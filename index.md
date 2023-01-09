@@ -1,6 +1,6 @@
 ## Welcome to STP 598 Applied Regression Analysis
 
-This course focuses on simple and multiple linear regression, regression with categorical predictors, logistic regression, residual diagnostics, model building, etc. The software \texttt{R} will be taught in class through demonstrations, hands-on labs, and project exercises.
+This course focuses on simple and multiple linear regression, regression with categorical predictors, logistic regression, residual diagnostics, model building, etc. The software **R** will be taught in class through demonstrations, hands-on labs, and project exercises.
 
 ### Announcements:
 
