@@ -34,21 +34,21 @@ This course focuses on simple and multiple linear regression, regression with ca
 
 [lecture 6](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
-[demo 3 (lect 6)](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
+[demo 3](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
 [lecture 7](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
 [lecture 8](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
-[demo 4 (lect 7 & 8)](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
+[demo 4](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
 [lecture 9](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
-[demo 5 (lect 9)](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
+[demo 5](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
 [lecture 10](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
-[demo 6 (lect 10)](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
+[demo 6](https://github.com/slan-teaching/STP530/blob/master/lecture_notes/STP530_lecture1.pdf)
 
 ### Homework Assignments
 
