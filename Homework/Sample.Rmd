@@ -1,0 +1,108 @@
+---
+title: "Sample homework report (STAT 420, Fall 2018)"
+output:
+  pdf_document: default
+  # html_document: default
+  # word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(message = FALSE)
+options(width = 1000)
+```
+
+## Name: Shiwei Lan (shiwei@illinois.edu)
+## Section: X (X=2 or 4)
+## NetID: shiwei; UIN: XXXX
+## Department: Statistics
+
+
+## Question 1 (Proof of conditional MVN)
+
+We are given the PDF of general MVN in the lecture note 1
+
+$$\frac{1}{(2\pi)^{p/2} \lvert \boldsymbol\Sigma \rvert^{1/2}} \exp\left\{ - \frac{1}{2} ({\bf x} - \boldsymbol\mu)^{\mathsf T} \boldsymbol\Sigma^{-1} ({\bf x} - \boldsymbol\mu) \right\}$$
+
+Nowe we need to make use of the conditional PDF of $f(x|y)$ and try to identify it as PDF of MVN with $\mu_*$ and $\Sigma_*$ specified in the given formula. In the process you will need the following block inverse formula
+
+\begin{equation*}
+\begin{bmatrix}
+\boldsymbol\Sigma_{xx} & \boldsymbol\Sigma_{xy} \\
+ \boldsymbol\Sigma_{yx} & \boldsymbol\Sigma_{yy}
+ \end{bmatrix}^{-1} = 
+ \begin{bmatrix}
+ (\boldsymbol\Sigma_{xx} - \boldsymbol\Sigma_{xy} \boldsymbol\Sigma_{yy}^{-1} \boldsymbol\Sigma_{yx})^{-1} & -(\boldsymbol\Sigma_{xx} - \boldsymbol\Sigma_{xy} \boldsymbol\Sigma_{yy}^{-1} \boldsymbol\Sigma_{yx})^{-1} \boldsymbol\Sigma_{xy} \boldsymbol\Sigma_{yy}^{-1} \\
+- \boldsymbol\Sigma_{yy}^{-1} \boldsymbol\Sigma_{yx} (\boldsymbol\Sigma_{xx} - \boldsymbol\Sigma_{xy} \boldsymbol\Sigma_{yy}^{-1} \boldsymbol\Sigma_{yx})^{-1} & (\boldsymbol\Sigma_{yy} - \boldsymbol\Sigma_{yx} \boldsymbol\Sigma_{xx}^{-1} \boldsymbol\Sigma_{xy})^{-1}
+ \end{bmatrix}
+\end{equation*}
+
+Look for \href{https://wch.github.io/latexsheet/latexsheet.pdf}{\underline{Latex Cheatsheet}} or other online tutorial for more details on \href{http://www.tug.org/mactex/}{\LaTeX}!
+
+
+## Question 2 (see example of the MVN in the lecture notes)
+
+We first specify the mean $\mu$ and varaince $\Sigma$ of $X$ in R:
+
+```{r}
+mu = matrix(c(5, 3, 7))
+Sigma = matrix(c(4, -1, 0, -1, 4, 2, 0, 2, 9), 3, 3)
+A = matrix(c(4, -3, 5))
+```
+
+We know that linear combinations of $X$ also follow the MVN distribution, and we can calculate its mean and variance by 
+
+```{r}
+Mean.AX = t(A) %*% mu
+Var.AX = t(A) %*% Sigma %*% A
+```
+
+Based on this distribution, we can calculate the probablity 
+
+```{r}
+pnorm(63, mean = Mean.AX, sd = sqrt(Var.AX))
+```
+Hence the proabality $P(4 X_1 - 3X_2 + 5X_3 < 63) = 0.8413447$
+
+## Question 3 (let's do a plot)
+
+We first load the package and the dataset 
+
+```{r}
+data(mtcars)
+```
+
+We first produce a simple plot, and add a line to it
+```{r fig.height = 4, fig.width = 5}
+plot(mpg ~ wt, data= mtcars)
+abline(lm(mpg ~ wt, data= mtcars))
+```
+
+Produce a histgram of the outcome variable, what does ``breaks'' do?
+
+```{r fig.height = 4, fig.width = 5}
+hist(mtcars$qsec, breaks = 15)
+```
+
+```{r}
+x = c(2.2, 7, 4, -6)
+mean(x)
+# knitr::include_graphics()
+```
+
+The mean of $x$ is `r mean(x)`.
+\newpage
+$x_1$ and $x^2$.
+
+[\underline{RStudio webpage}](https://www.rstudio.com)
+
+<!-- ![caption](path/to/your/image) -->
+
+<!-- \begin{figure} -->
+<!-- \centering -->
+<!-- \includegraphics[width=1\textwidth,height=0.5\textwidth]{path/to/your/image} -->
+<!-- \end{figure} -->
+
+${24 \over 3} = 8=\frac{24}{3}$
+
+$\alpha, \beta, \beta_0, \epsilon, \varepsilon, \phi, \varphi, \chi^2_d$
