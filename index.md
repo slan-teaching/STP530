@@ -52,7 +52,7 @@ This course focuses on simple and multiple linear regression, regression with ca
 
 ### Homework Assignments
 
-[Homework 1](https://github.com/slan-teaching/STP530/blob/master/Homework/STP530_hw1.pdf);    [Rmd](https://github.com/slan-teaching/STP530/blob/master/Homework/STP530_hw1.pdf)
+[Homework 1](https://github.com/slan-teaching/STP530/blob/master/Homework/STP530_hw1.pdf);    [Rmd](https://github.com/slan-teaching/STP530/blob/main/Homework/Sample.Rmd)
 
 [Homework 2](https://github.com/slan-teaching/STP530/blob/master/Homework/STP530_hw1.pdf);    [example](hhttps://github.com/slan-teaching/STP530/blob/master/Homework/STP530_hw1.pdf)
 
