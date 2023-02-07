@@ -8,6 +8,8 @@ This course focuses on simple and multiple linear regression, regression with ca
 
 * This course will use **R** at [https://www.r-project.org](https://www.r-project.org) and **RStudio** (renamed to **Posit**) at [https://posit.co](https://posit.co).
 
+* The data sets of the book *Applied Linear Statistical Models* can be downloaded [here](https://users.stat.ufl.edu/~rrandles/sta4210/Rclassnotes/data/textdatasets/).
+
 <!-- * Homework 3 is available on canvas due **11:59pm Friday 10/28, 2022**. -->
 
 ### Syllabus
