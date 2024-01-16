@@ -1,5 +1,5 @@
 ---
-title: "Sample homework report (STAT 420, Fall 2018)"
+title: "Sample homework report (STP 530, SoMSS @ ASU)"
 output:
   pdf_document: default
   # html_document: default
@@ -12,10 +12,10 @@ knitr::opts_chunk$set(message = FALSE)
 options(width = 1000)
 ```
 
-## Name: Shiwei Lan (shiwei@illinois.edu)
+## Name: Shiwei Lan (slan@asu.edu)
 ## Section: X (X=2 or 4)
-## NetID: shiwei; UIN: XXXX
-## Department: Statistics
+## NetID: slan7; UIN: XXXX
+## Department: Math \& Stats
 
 
 ## Question 1 (Proof of conditional MVN)
@@ -60,9 +60,9 @@ Var.AX = t(A) %*% Sigma %*% A
 Based on this distribution, we can calculate the probablity 
 
 ```{r}
-pnorm(63, mean = Mean.AX, sd = sqrt(Var.AX))
+a=pnorm(63, mean = Mean.AX, sd = sqrt(Var.AX))
 ```
-Hence the proabality $P(4 X_1 - 3X_2 + 5X_3 < 63) = 0.8413447$
+Hence the probability $P(4 X_1 - 3X_2 + 5X_3 < 63) = `r a`$
 
 ## Question 3 (let's do a plot)
 
